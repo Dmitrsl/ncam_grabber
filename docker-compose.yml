@@ -1,0 +1,10 @@
+version: "3"
+services:
+  webcam:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/home/webcamera
+    devices:
+      - /dev/video0:/dev/video0
