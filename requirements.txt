@@ -1,5 +1,5 @@
  
 genicam==1.0.0
 harvesters==1.1.1
-numpy==1.18.2
+numpy==1.22.0
 opencv-python==4.2.0.32
